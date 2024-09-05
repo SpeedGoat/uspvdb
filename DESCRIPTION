@@ -1,0 +1,20 @@
+Package: uspvdb
+Title: Helper functions to interact with the USPVDB API
+Version: 0.0.1
+Authors@R: 
+    c(person("Josh", "Nowak", , "josh.nowak@speedgoat.io", 
+    role = c("aut", "cre"), comment = c(ORCID = "0000-0002-8553-7450")),
+    person("SpeedGoat", role = "cph")
+    )
+Description: The uspvdb package provides functions intended to facilitate easy user interaction with the USPVDB API. The USPVDB API is a RESTful API that provides access to a database of utility-scale photovoltaic (PV) power plants in the United States. The database was funded by the U.S. Department of Energy Solar Energy Technologies Office via the Lawrence Berkeley National Laboratory (LBNL) Energy Markets and Policy Department, and the U.S. Geological Survey (USGS) Energy Resources Program. 
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+Depends: 
+    R (>= 2.10)
+LazyData: true
+Imports: 
+    cli,
+    httr2,
+    magrittr
